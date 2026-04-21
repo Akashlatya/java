@@ -1,28 +1,29 @@
-package DSA.stack;
+package stack;
 
 import java.util.Stack;
 
 public class displayStack {
 
-    public static void displayReverseRec(Stack <Integer> st){
-        if(st.size()==0) return ;
+    public static void displayReverseRec(Stack<Integer> st) {
+        if (st.size() == 0)
+            return;
 
         int top = st.pop();
         System.out.print(top + " ");
         displayReverseRec(st);
         st.push(top);
-        
+
     }
 
-     public static void displayRec(Stack <Integer> st){
-        if(st.size()==0) return ;
+    public static void displayRec(Stack<Integer> st) {
+        if (st.size() == 0)
+            return;
         int top = st.pop();
         displayReverseRec(st);
         System.out.print(top + " ");
         st.push(top);
-        
-    }
 
+    }
 
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
@@ -34,5 +35,5 @@ public class displayStack {
         System.out.println(st);
         displayRec(st);
     }
-    
+
 }
