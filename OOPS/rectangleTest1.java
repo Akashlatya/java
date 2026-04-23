@@ -21,7 +21,7 @@ class Rectangle {
 
 }
 
-public class rectangleTest {
+public class rectangleTest1 {
 
     public static void main(String[] args) {
         Rectangle r = new Rectangle();
