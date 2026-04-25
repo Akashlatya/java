@@ -14,6 +14,7 @@ interface Test {
 }
 
 interface Test2 extends Test {
+
     void meth4();
 }
 

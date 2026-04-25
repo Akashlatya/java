@@ -1,9 +1,0 @@
-{
-    "editor.fontSize": 18,
-    "files.autoSave": "onWindowChange",
-    "editor.wordWrap": "on",
-    "java.debug.settings.onBuildFailureProceed": true,
-    "github.copilot.enable": {
-        "*": false
-    }
-}
