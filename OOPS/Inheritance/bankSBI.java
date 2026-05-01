@@ -86,7 +86,7 @@ public class bankSBI {
         Account AC = new Account();
 
         AC.balance = 20000;
-        System.out.println(LA.repay(500));
+        // System.out.println(LA.repay(500));
 
     }
 

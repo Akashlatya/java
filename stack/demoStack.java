@@ -1,4 +1,4 @@
-package DSA.stack;
+package stack;
 
 import java.util.*;
 
@@ -15,6 +15,5 @@ public class demoStack {
     }
 }
 
-
-// *Stack overflow is  = memory of stack is full *
+// *Stack overflow is = memory of stack is full *
 // "Stack underflow is " stack is empty and use pop fun in it
