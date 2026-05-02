@@ -1,0 +1,6 @@
+#Laptop
+#Sat May 02 13:53:05 IST 2026
+Brand=Dell
+Model=Latitude
+OS=Windows10
+Processor=i7
